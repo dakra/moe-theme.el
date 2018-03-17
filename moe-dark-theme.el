@@ -635,8 +635,8 @@ Moe, moe, kyun!")
    ;; `(diff-hl-dired-unknown ((,class (:inherit (diff-hl-change)))))
 
    ;; Diff
-   `(diff-added ((,class (:foreground ,green-0 :background ,black-4 :bold t))))
-   `(diff-changed ((,class (:foreground ,yellow-2 :background ,black-4 :bold t))))
+   `(diff-added ((t (:foreground ,white-0 :background ,green-5 :bold t))))
+   `(diff-changed ((t (:foreground ,white-0 :background ,yellow-1 :bold t))))
    `(diff-context ((,class (:foreground ,black-2-5))))
    `(diff-file-header ((,class (:foreground ,black-5 :background ,blue-0 :bold t))))
    `(diff-function ((,class (:foreground ,black-4 :background ,white-2))))
@@ -650,7 +650,7 @@ Moe, moe, kyun!")
    `(diff-refine-added ((,class (:foreground ,white-0 :background ,green-4 :bold t))))
    `(diff-refine-change ((,class (:foreground ,white-0 :background ,yellow-4 :bold t))))
    `(diff-refine-removed ((,class (:foreground ,white-0 :background ,red-3 :bold t))))
-   `(diff-removed ((,class (:foreground ,red-0 :background ,black-4 :bold t))))
+   `(diff-removed ((t (:foreground ,white-0 :background ,red-3 :bold t))))
 
    ;; Ediff
    ;; `current': Face for highlighting the selected difference in buffer A/B/C
