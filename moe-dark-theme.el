@@ -141,7 +141,7 @@ Moe, moe, kyun!")
    `(Info-quoted ((,class (:background ,black-2-5 :foreground ,white-0))))
 
    ;; Escape and prompt faces
-   `(minibuffer-prompt ((,class (:foreground ,black-3 :background ,green-2))))
+   `(minibuffer-prompt ((,class (:foreground ,cyan-6 :background ,blue-0))))
    `(escape-glyph ((,class (:foreground ,yellow-3))))
    `(error ((,class (:foreground ,red-0))))
    `(warning ((,class (:foreground ,orange-1))))
@@ -861,7 +861,7 @@ Moe, moe, kyun!")
    `(ido-virtual ((,class (:foreground ,magenta-3))))
 
    ;; ivy-mode
-   `(ivy-current-match ((,class (:foreground ,orange-2 :bold t :inherit highlight))))
+   `(ivy-current-match ((,class (:foreground ,orange-2 :underline t :bold t :inherit highlight))))
    `(ivy-confirm-face ((,class (:foreground ,green-4 :background ,green-00 :bold t))))
    `(ivy-subdir ((,class (:foreground ,blue-1 :bold t))))
    `(ivy-virtual ((,class (:foreground ,magenta-3))))
