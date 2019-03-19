@@ -174,6 +174,14 @@ Moe, moe, kyun!")
    `(undo-tree-visualizer-active-branch-face ((,class (:foreground ,red-2))))
    `(undo-tree-visualizer-register-face ((,class (:foreground ,yellow-2))))
 
+   ;; markup-faces for adoc-mode
+   `(markup-title-0-face ((,class (:inherit markup-gen-face :height 1.4))))
+   `(markup-title-1-face ((,class (:inherit markup-gen-face :height 1.3))))
+   `(markup-title-2-face ((,class (:inherit markup-gen-face :height 1.2))))
+   `(markup-title-3-face ((,class (:inherit markup-gen-face :height 1.0 :weight bold))))
+   `(markup-title-4-face ((,class (:inherit markup-gen-face :height 1.0 :slant italic))))
+   `(markup-title-5-face ((,class (:inherit markup-gen-face :height 1.0 :underline t))))
+
    ;; Markdown-mode
    `(markdown-blockquote-face ((,class (:foreground ,orange-2 :background ,black-3 :italic t))))
    `(markdown-bold-face ((,class (:foreground ,white-1 :bold t))))
