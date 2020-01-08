@@ -159,12 +159,12 @@ Moe, moe, kyun!")
    `(org-document-info-keyword ((,class (:foreground ,orange-1 :background ,black-2-5))))
    `(org-archived ((,class (:slant italic))))
    `(org-checkbox ((,class (:background ,white-2 :foreground ,black-3
-					:box (:line-width 1 :style released-button)))))
+			    :box (:line-width 1 :style released-button)))))
    `(org-date ((,class (:foreground ,blue-0 :underline t))))
    `(org-done ((,class (:bold t :weight bold :foreground ,green-4 :background ,green-0
-                              :box (:line-width 1 :style none)))))
+                        :box (:line-width 1 :style none)))))
    `(org-todo ((,class (:bold t :weight bold :foreground ,red-3 :background ,orange-0
-                              :box (:line-width 1 :style none)))))
+                        :box (:line-width 1 :style none)))))
    `(org-level-1 ((,class (:foreground ,blue-1))))
    `(org-level-2 ((,class (:foreground ,green-2))))
    `(org-level-3 ((,class (:foreground ,orange-2))))
@@ -1020,11 +1020,11 @@ Moe, moe, kyun!")
 
    ;; Custom
    `(custom-button ((,class (:background ,blue-0 :foreground ,blue-3
-					 :box (:line-width 1 :style released-button)))))
+			     :box (:line-width 1 :style released-button)))))
    `(custom-button-mouse ((,class (:background ,blue-00 :foreground ,black-3
-					       :box (:line-width 1 :style released-button)))))
+				   :box (:line-width 1 :style released-button)))))
    `(custom-button-pressed ((,class (:foreground ,black-3 :background ,white-1
-						 :box (:line-width 1 :style pressed-button)))))
+				     :box (:line-width 1 :style pressed-button)))))
 
    ;; Hydra
    `(hydra-face-red ((,class (:foreground ,red-0))))
