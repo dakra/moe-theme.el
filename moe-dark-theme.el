@@ -114,7 +114,8 @@ Moe, moe, kyun!")
    `(cursor ((,class (:background ,white-0))))
 
    ;; Highlighting faces
-   `(fringe ((,class (:foreground ,black-1 :background ,black-3))))
+   `(shadow ((,class (:foreground ,black-2-5 :background ,black-5))))
+   `(fringe ((,class (:foreground ,black-1 :background ,black-4))))
    `(linum ((,class (:foreground ,white-3 :background ,black-3))))
    `(line-number ((,class (:foreground ,white-3 :background ,black-3))))
    `(linum-highlight-face ((,class (:background ,green-0 :foreground ,black-4))))
