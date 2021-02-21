@@ -890,6 +890,10 @@ Moe, moe, kyun!")
    ;; volatile-highlights
    `(vhl/default-face ((,class (:foreground ,black-3 :background ,green-0))))
 
+   ;; goggles
+   `(goggles-changed ((,class (:foreground ,black-3 :background ,green-0))))
+   `(goggles-added ((,class (:foreground ,black-3 :background ,green-0))))
+
    ;; notmuch
    `(notmuch-search-unread-face ((,class (:weight bold))))
    `(notmuch-message-summary-face ((,class (:background ,black-4))))
