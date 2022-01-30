@@ -79,8 +79,8 @@ Moe, moe, kyun!")
 
    ;; Font lock faces
    `(font-lock-builtin-face ((,class (:foreground ,purple-1))))
-   `(font-lock-comment-delimiter-face ((,class (:foreground ,black-2-5 :slant italic))))
-   `(font-lock-comment-face ((,class (:foreground ,black-2-5 :slant italic))))
+   `(font-lock-comment-delimiter-face ((,class (:foreground ,black-2 :slant italic))))
+   `(font-lock-comment-face ((,class (:foreground ,black-2 :slant italic))))
    `(font-lock-constant-face ((,class (:foreground ,blue-1))))
    `(font-lock-doc-face ((,class (:foreground ,red-0))))
    `(font-lock-doc-string-face ((,class (:foreground ,yellow-3))))
