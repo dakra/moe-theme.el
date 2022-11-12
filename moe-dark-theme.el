@@ -115,7 +115,7 @@ Moe, moe, kyun!")
 
    ;; Highlighting faces
    `(shadow ((,class (:foreground ,black-2-5 :background ,black-5))))
-   `(fringe ((,class (:foreground ,black-1 :background ,black-4))))
+   `(fringe ((,class (:foreground ,black-1 :background ,black-5))))
    `(linum ((,class (:foreground ,white-3 :background ,black-3))))
    `(line-number ((,class (:foreground ,white-3 :background ,black-3))))
    `(linum-highlight-face ((,class (:background ,green-0 :foreground ,black-4))))
@@ -633,9 +633,9 @@ Moe, moe, kyun!")
    `(grep-match-face ((,class (:foreground unspecified :background unspecified :inherit match))))
 
    ;; diff-hl
-   `(diff-hl-change ((,class (:foreground ,blue-4 :background ,blue-1 :bold t))))
-   `(diff-hl-delete ((,class (:foreground ,red-3 :background ,red-1 :bold t))))
-   `(diff-hl-insert ((,class (:foreground ,green-4, :background ,green-2 :bold t))))
+   `(diff-hl-change ((,class (:foreground ,black-5 :background ,blue-6 :bold t))))
+   `(diff-hl-delete ((,class (:foreground ,black-5 :background ,red-4 :bold t))))
+   `(diff-hl-insert ((,class (:foreground ,black-5 :background ,green-5 :bold t))))
    `(diff-hl-reverted-hunk-highlight ((,class (:inherit (highlight)))))
    `(diff-hl-dired-change ((,class (:inherit (diff-hl-change)))))
    `(diff-hl-dired-delete ((,class (:inherit (diff-hl-delete)))))
