@@ -165,6 +165,26 @@ Now =moe-theme= supports [[https://github.com/milkypostman/powerline][Powerline]
     (powerline-moe-theme)
 #+END_SRC
 
+*** Switch between light and dark theme by time of daylight
+
+This package also contains some rudimentary functionality for swapping
+between the =moe-light= and =moe-dark= themes automatically, to match
+the time of day. To enable it, you can use the following:
+
+#+BEGIN_SRC emacs-lisp
+  ;; If moe-theme was installed manually as described above, uncomment
+  ;; the following:
+  ;; (require 'moe-theme-switcher)
+
+  (setq calendar-latitude +25
+        calendar-longitude +121
+        moe-theme-switch-by-sunrise-and-sunset t)
+  (moe-theme-switcher-mode 1)
+#+END_SRC
+
+For packages that provides more sophisticated switching functionality,
+see [[https://github.com/guidoschmidt/circadian.el][circadian.el]] or [[https://github.com/hadronzoo/theme-changer][theme-changer]].
+
 ** Frenquently Asked Problems
 *** No 256-Color Output?
 
@@ -190,6 +210,18 @@ I recommend set the value of =show-paren-style= to =expression= for better visua
         (show-paren-mode t)
         (setq show-paren-style 'expression)
 #+END_SRC
+
+** Changelog
+
+Notable changes from earlier versions of =moe-theme=:
+
+*** v1.1.0
+- =moe-theme-switcher= is now a minor mode
+
+  In previous versions, =moe-theme-switcher= was enabled automatically
+  by just loading the module. As it has now been turned into a minor
+  mode, users will need to update their configuration to enable this
+  mode. See [[* Switch between light and dark theme by time of daylight][this section]] for details on how to do this.
 
 ** Known Issues
 - If you add =(moe-dark)= or =(moe-light)= to your init file, the color
