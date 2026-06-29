@@ -137,6 +137,7 @@ Moe, moe, kyun!")
    `(mode-line-inactive ((,class (:box nil :background ,black-4 :foreground ,white-3))))
    `(mode-line-buffer-id ((,class (:box nil :foreground ,blue-0 :background unspecified :bold t))))
    `(vertical-border ((,class (:foreground ,black-3 :background ,black-3))))
+   `(window-divider ((,class (:foreground ,black-3 :background ,black-3))))
 
    `(fixed-pitch-serif ((,class (:inherit (fixed-pitch)))))
    `(Info-quoted ((,class (:background ,black-2-5 :foreground ,white-0))))
